@@ -1,10 +1,11 @@
 /*
  Edit: using the basis of the fade program and circuit,
   a potentiometer was wired up on A4. As it's turned,
-  the LED gets dimmer or brighter, and the values are
-  printed to serial port. The LED is not visibly
+  one LED gets dimmer or brighter, and the values are
+  printed to serial port. That LED is not visibly
   blinking, but it blinks to accomplish the dimming
   and brightening effect.
+  The second LED, ledT, does visibly blink.
   Fade
 
   This example shows how to fade an LED on pin 9 using the analogWrite()
